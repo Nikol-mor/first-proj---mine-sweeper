@@ -1,0 +1,94 @@
+html {
+  font-family: 'Lucida Handwriting';
+}
+
+.wall {
+  height: 400px;
+}
+
+body {
+  background-color: rgb(8, 8, 7);
+  text-align: center;
+  color: white;
+  font-size: 22px;
+}
+
+h1 {
+  color: rgb(106, 138, 136);
+  margin: 0px;
+}
+
+button {
+  background-color: black;
+  font-family: 'Lucida Handwriting';
+  font-size: 22px;
+  color: rgb(169, 213, 231);
+  padding: 15px;
+  padding-left: 5px;
+  margin-right: 20px;
+  margin-left: 5px;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.icon {
+  background-color: black;
+  font-family: 'Lucida Handwriting';
+  font-size: 24px;
+  color: rgb(169, 213, 231);
+  padding: 0px;
+  padding-left: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+.game {
+  color: rgb(235, 186, 220);
+  margin-bottom: 20px;
+}
+
+.frame {
+  border: 25px;
+  border-color: white;
+  width: 850px;
+  align-items: center;
+}
+
+table {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+td {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.cell {
+  width: 35px;
+  height: 36px;
+}
+
+#timer {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  color: aqua;
+  border: solid;
+}
+
+.next-num {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: rgb(156, 102, 207);
+  border: solid;
+}
+
+.frame {
+  border: solid;
+  background-color: rgba(32, 32, 26, 0.452);
+  margin: auto;
+}

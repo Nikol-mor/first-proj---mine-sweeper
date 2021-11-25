@@ -1,0 +1,39 @@
+<html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/mineSweeper.css" />
+  <title>Mine Sweeper</title>
+</head>
+
+<body onload="initGame()">
+  <div class="frame">
+    <h1>Mine Sweeper</h1>
+    <button class="icon" onclick="restart()">
+      <img src="img/happy.jpg" height="50px" />
+    </button>
+    <div>
+      Choose your level
+      <button class="easy" data-level="4" onclick="changeLevel(this)">Easy(4*4)</button>
+      <button class="hard" data-level="8" onclick="changeLevel(this)">Hard(8*8)</button>
+      <button class="extreme" data-level="12" onclick="changeLevel(this)">Extreme(12*12)</button></span>
+    </div>
+    <div><span> Game Time</span><span id="timer"></span></div>
+    <div> <span>LIVES    </span><span class="life one"></span><span class="life two"></span><span class="life three"></span></div>
+    <div class="board-container" id="noContextMenu"></div>
+    <!-- <table border="1" align="center">
+      <tbody class="board">
+
+      </tbody>
+
+    </table> -->
+  </div>
+
+  <script src="js/utils.js"></script>
+  <script src="js/mineSweeper.js"></script>
+</body>
+
+</html>

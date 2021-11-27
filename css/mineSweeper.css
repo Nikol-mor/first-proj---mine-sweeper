@@ -8,14 +8,19 @@ html {
 
 body {
   background-color: rgb(8, 8, 7);
+  background-image: url(../img/wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
   color: white;
   font-size: 22px;
 }
 
 h1 {
-  color: rgb(106, 138, 136);
+  color: rgb(0, 0, 0);
   margin: 0px;
+  text-shadow: 1px 1px 2px black, 0 0 25px #ececec, 0 0 70px black;
+  font-size: 60px;
 }
 
 button {
@@ -60,6 +65,7 @@ table {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
+  border-color: grey;
 }
 
 td {
@@ -67,16 +73,21 @@ td {
   height: 30px;
   text-align: center;
 }
+
+td:hover {
+  background-color: lightblue;
+}
 .cell {
   width: 35px;
   height: 36px;
+  background-color: slategrey;
 }
 
 #timer {
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
-  color: aqua;
+  color: rgb(255, 255, 255);
   border: solid;
 }
 
